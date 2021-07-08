@@ -1,0 +1,1378 @@
+<?php
+    $sub = "Sydney";
+    if(isset($_GET["s"])){
+        $sub = ucwords(htmlspecialchars($_GET["s"]));
+    }
+
+    $service = "";
+    if(isset($_GET["svc"])){
+        $service = ucwords(htmlspecialchars($_GET["svc"])).' ';
+    }
+
+    date_default_timezone_set('Australia/Sydney');
+    $today = date('l'); 
+?>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quick &amp; Reliable <?php echo $service; ?> In <?php echo $sub; ?></title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    
+  
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap" rel="stylesheet">
+    <link href="css/fontello.css" type="text/css" rel="stylesheet">
+    <link href="css/D-DIN/stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" type="text/css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/sliding-form.js"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Ads: 706485701 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-706485701"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'AW-706485701');
+    </script>
+    
+    <script>
+      gtag('config', 'AW-706485701/-xZjCIO-v6wBEMW78NAC', {
+        'phone_conversion_number': '0435 039 378'
+      });
+    </script>
+
+</head>
+
+<body>
+    <a href="tel:0435039378" class="nav-phone">
+        <i class="icon-phone-2"></i>
+        <div id="phone-link" class="nav-phone__link">0435 039 378</div>
+    </a>
+    <div id="header" class="section">
+        <div id="headerBar">
+            <div class="container">
+                <div class="row row-eq-height">
+                    <div class="col-md-3 col-sm-5">
+                        <img src="img/logo.png" class="img-responsive">
+                    </div>
+                    <div class="col-md-9 col-sm-7 cta-ul-holder hidden-xs">
+                        <ul class="cta-ul">
+                            <li>
+                                <a href="#quote" class="cta-ul-item">
+                                    <i class="icon-shapes" aria-hidden="true"></i>
+                                    <span>Get A Free<br>Quote</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:0435039378" class="cta-ul-item">
+                                    <i class="icon-technology-1" aria-hidden="true"></i>
+                                    <span>Call Us On<br>0435 039 378</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="navBar">
+            <div class="container">
+                <div class="row row-eq-height">
+                    <div class="col-md-9 hidden-xs">
+                        <ul class="nav-ul">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#whyChooseUs">Why Us</a></li>
+                            <li><a href="#aboutUs">About Us</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#quote">Get Your Free Quote!</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-md-offset-0 todayOffer col-sm-6 col-sm-offset-3 col-xs-9">
+                        <span class="offerCta">We have a natural solution  </span>
+                        <span class="offerValue">with a 100% benefit</span>
+                        <span class="offerCta">for you!</span>
+                    </div>
+                    <div class="col-xs-3 visible-xs">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="trx_addons_icon-menu"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="navContainer visible-xs">
+                <ul class="mobile-nav-ul navbar-collapse collapse" id="mainNav">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#whyChooseUs">Why Us</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#quote">Get Your Free Quote!</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="headerContent">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row row-eq-height">
+                    <div class="col-md-7 center-content-inCol">
+                        <div class="header-cotnent">
+                            <h1>Quick, Reliable &amp; Efficient Energy Healing<?php echo $service; ?> in <?php echo $sub; ?><span>Natural Health Treatments succeed when other treatments fail </span></h1>
+                            <p>The key element to the success of our programs is the emphasis on identifying the root of the problem, which can be genetic or caused by lifestyle choices or trauma. Our natural treatments reaching far into the depth of genetic structure, the results are permanent. We take a holistic approach to providing effective solutions, which include advice on nutrition and exercise. </p>
+                            <a href="tel:0435039378" class="btn">Call Us 0435 039 378</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <div class="pop-body">
+                            <h4 class="title small">FREE QUOTE <span>Get a response in minutes</span> <span>We look forward to assisting!</span></h4>
+                            <form action="" method="POST" class="form-widget" novalidate="novalidate" id="contact_form">
+                                <div class="field-wrp">
+                                    <div class="form-group">
+                                        <label class="form-label" for="name">Your Name <span>*</span></label>
+                                        <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name" placeholder="Enter your name" aria-required="true">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="email">Your Email <span>*</span></label>
+                                        <input class="form-control" data-label="Email" required="" data-msg="Please enter your email." type="email" name="email" id="email" placeholder="Enter your email" aria-required="true">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label" for="phone">Your Phone Number <span>*</span></label>
+                                        <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="text" name="phone" id="phone" placeholder="Enter your phone number" aria-required="true">
+                                    </div>
+                                    <input type="hidden" name="service_required_flag" value="">
+                                    <div class="form-group">
+                                        <label class="form-label" for="message">Additional Details <span class="muted">(Optional)</span></label>
+                                        <textarea class="form-control" data-label="Message" name="message" id="message" placeholder="Ener Any Additional Details" cols="30" rows="10"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                    <span class="cta-sub">*Your details are kept confidential</span>
+                                </div>
+                            </form>
+                            <div class="msg-block"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="whyUs" class="section">
+        <div class="container">
+            <div class="row row-eq-height">
+                <div class="col-md-7 col-sm-7">
+                    <div class="row ctaBlock invertBox row-eq-height">
+                        <div class="col-lg-6 hidden-md hidden-sm center-content-inCol">
+                            <img src="img/intro-image.jpg" style="border-radius: 50%;" class="img-responsive">
+                        </div>
+                        <div class="col-lg-6 col-md-12 center-content-inCol">
+                            <h2>Natural Solutions By Health Specialists In <?php echo $sub; ?></h2>
+                            <p>Over the years we’ve built an enviable reputation for efficiency and reliability, using natural energy healing solutions</p>                             
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-5 ctaBlock">
+                    <i class="icon-phone-2"></i>
+                    <p>It’s time to step up to the next level of health, wellbeing, and work/life balance</p>
+                    <h2 class="bottomCTA">
+                        <span>Call Us Now:</span>
+                        <a href="tel:0435039378">0435 039 378</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="section-headline">
+                        <h2>Our Services</h2>
+                        <p>As our treatments reach far into the depth of genetic structure, the results are permanent.  We take a holistic approach to providing effective solutions, which include advice on nutrition and exercise.<br>
+                            <b>All of our treatments are vegan friendly and 100% cruelty free – approved by nature.</b>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Anxiety <br> Treatment</h5>
+                        <img src="img/services/anxiety-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#anxiety_treatment">Request A Quote</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Eye Diseases<br>Treatment</h5>
+                        <img src="img/services/eye-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#eye_diseases_treatment">Request A Quote</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Asthma<br>Treatment</h5>
+                        <img src="img/services/ashtma-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#asthma_treatment">Request A Quote</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Blood Pressure <br> Treatment</h5>
+                        <img src="img/services/blood-pressure-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#blood-pressure-treatment">Request A Quote</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Eye Diseases<br>Treatment</h5>
+                        <img src="img/services/cholestrol-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#cholestrol-treatment">Request A Quote</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Chronic Fatique<br>Treatment</h5>
+                        <img src="img/services/chronic-fatigue-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#chronic-fatique-treatment">Request A Quote</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Depression <br> Treatment</h5>
+                        <img src="img/services/depression-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#depression-treatment">Request A Quote</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Gut Problems<br>Treatment</h5>
+                        <img src="img/services/gut-problems-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#gut-problems-treatment">Request A Quote</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Insomnia<br>Treatment</h5>
+                        <img src="img/services/insomnia-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#insomnia-treatment">Request A Quote</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Stress <br> Treatment</h5>
+                        <img src="img/services/stress-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#stress-treatment">Request A Quote</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <h5>Energy Healing<br>Vs Yoga, Reiki or Qigong/Chi Gung</h5>
+                        <img src="img/services/energy-healing-intro.jpg" class="img-responsive">
+                        <a href="#" class="btn btn-sm" data-toggle="modal" data-target="#energy-healing">Request A Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="whyChooseUs" class="section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-8">
+                    <h2>Why Choose <span>Energy Healing Institute</span></h2>
+                    <p>Radiate your light into the world and step into your true self</p>
+                    <ul class="intro-list">
+                        <li>At Energy Healing Institute, we are committed to exemplary patient care, striving not just to ameliorate pain and the symptoms of poor health or disease, but rather to identify the causes of illness and treating those so that our patients can achieve optimal health</li>
+                        <li>By initiating change psychologically and energetically you will tap into the deepest, most authentic vibrations of your inner being.</li>
+                        <li>Together you will explore what needs your attention. You will design new goals that create a healing pathway for the body, psyche and spirit to thrive in. </li>
+                        <li>We believe that all medical treatment should be paired with proper education. We have found that the more you understand your role in your own healing process the better and more consistent the results.</li>
+                        <li>Every single treatment is paired with teaching our patients how to achieve this on their own, without outside intervention. We believe this is where medicine of the future begins.</li>
+
+                        <!-- <li>Flexiable schedule around the time that is convenient for you</li>
+                        <li>We utilise the best equipment available</li>
+                        <li>We offer a 100% satisfaction guarantee</li>
+                        <li><b><u>We will beat any written quote</u></b></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cta-full section">
+        <div class="container">
+            <div class="row row-eq-height">
+                <div class="col-md-6 center-content-inCol">
+                    <h1><a href="tel:0435039378"><i class="icon-phone-2"></i> 0435 039 378</a></h1>
+                </div>
+                <div class="col-md-6 center-content-inCol">
+                    <p><b><u>The Australian Energy Healing Institute in Melbourne and Bendigo,</u></b> now offers an alternative proven natural way to treat chronic illnesses.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="aboutUs" class="section">
+        <div class="container">
+            <div class="row row-eq-height align-items-center align-items-center">
+                <div class="col-lg-3 col-lg-offset-1 col-md-6 ">
+                    <img src="img/Dr-Novak-Profile.jpg" class="">
+                </div>
+                <div class="col-lg-8  col-md-6 center-content-inCol">
+                    <h2>About <span>The Founder</span></h2>
+                    <p>Melbourne based practitioner and Energy Medicine Specialist Mr. Silvio Novak, is the founder of the Australian Energy Healing Institute. After a car accident leaves him blind in 1995, he decides to dedicate his life to helping others. After years of studying Traditional Chinese Medicine, exploring various healing techniques in China focused on treating energy meridians in the human body, and practicing all over the world,<b class="highlight"> he has developed a unique and powerful form of healing called “Energy Healing by Voice Transmission”. </b> </p>
+                    <p><b class="highlight">He has successfully rehabilitated thousands of people around the world and trained hundreds of new therapists. </b>His method combines energy healing, good nutrition, and light exercises, so the illness can be attacked from all angles for maximum efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="testimonials" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-headline">
+                        <h2>What Our Clients Are Saying</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-eq-height">
+                <div class="col-md-6">
+                    <div class="review-block">
+                        <img src="img/google-5-star.png" class="img-responsive rating">
+                        <p>I used to have palpitations and panic attacks. Often people who did not understand what was going on, called an ambulance for me. They kept me in hospital overnight many times but nobody could work out what was going on, except that my blood pressure was pretty high. I met Energy Medicine specialist Novak through friends and at first, we just talked. I liked his personality, so when he suggested that I try a session, I did. I was very sceptical and just went by curiosity. But I enjoyed the session and the people who were there. So, I kept on coming back and soon, I did not have anxiety or panic attacks anymore and my Doctor was astonished that my blood pressure was now quite normal, it was between 120 to 130 over 80 to 85. Perhaps not perfect but the best it had ever been. I now live a normal life.</p>
+                        <img src="img/google-reviews-icon.jpg" class="img-responsive">
+                        <h5 class="author">Jack Bernard</h5>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6">
+                    <div class="review-block">
+                        <img src="img/google-5-star.png" class="img-responsive rating">
+                        <p> I have been going to energy therapies for over three months now. Mr.Novak were able to help me from my insomnia, depression and anxiety. In terms of my insomnia, I have suffered from it most of my life and used to take sleeping pills every night. Since attending the therapies, I have regular sleeping patterns. My depression and anxiety have also totally gone as well and I have a lot more energy, especially in the morning getting up and at work during the day. I highly recommend Mr. Novak’s treatments to anyone who wants to eliminate any of the health problems I mentioned and who wishes to improve their overall well being. I must also mention that the group sessions are a lot of fun.</p>
+                        <img src="img/google-reviews-icon.jpg" class="img-responsive">
+                        <h5 class="author">Monika Ciura</h5>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+            <div class="row row-eq-height">
+                <div class="col-md-6">
+                    <div class="review-block">
+                        <img src="img/google-5-star.png" class="img-responsive rating">
+                        <p>I am 27 years old and I have been attending Mr. Novak's therapies for the last few months. Since then, I have had various positive results. I can now fall asleep very easily, when before I couldn’t. I also had depression and I was crying almost every day. This stopped shortly after attending energy therapies. 
+                            After an operation I had on my left eye I started to have glaucoma and used various medications to lower my eye pressure but they did not work. After regularly attended therapies did my pressure come down naturally. These are only some of the results I can truthfully say that decision to attend these therapies was the best decision I ever made.</p>
+                        <img src="img/google-reviews-icon.jpg" class="img-responsive">
+                        <h5 class="author">Danielle S.</h5>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="review-block">
+                        <img src="img/google-5-star.png" class="img-responsive rating">
+                        <p>I had problems with stress at work and with my family. Frequent pains in my stomach were keeping me tense constantly. I slept badly and I was depressed. After 14 days of attending Mr. Novak’s energy treatments I am very satisfied with the results. I feel a lot better; I sleep better and I am not tense anymore. I learned a lot about energy here, how to apply it in everyday life and about things I never had a chance to learn before. I have acquired a more positive outlook and attitude towards life, and I would recommend this natural type of treatments to everyone.
+                           </p>
+                        <img src="img/google-reviews-icon.jpg" class="img-responsive">
+                        <h5 class="author">Matt J.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="quote" class="up-level">
+        <div class="container">
+            <div class="row row-eq-height">
+                <div class="col-lg-5 col-lg-offset-1 col-md-5">
+                    <div class="request-quote-form">
+                        <h5>Request a FREE Quote</h5>
+                        <div class="form-container">
+                            <form action="" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_1">
+                                <div class="field-wrp">
+                                    <div class="form-group">
+                                        <label class="form-label" for="name1">Your Name <span>*</span></label>
+                                        <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name1" placeholder="Enter your name" aria-required="true">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="email1">Your Email <span>*</span></label>
+                                        <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email1" placeholder="Enter your email" aria-required="true">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="phone1">Your Phone Number <span>*</span></label>
+                                        <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone1" placeholder="Enter your phone number" aria-required="true">
+                                    </div>
+                                    <div class="form-group">
+	                                    <label class="form-label" for="address1">Your Suburb <span class="required_indc">*</span></label>
+	                                    <input class="form-control" data-label="Your Suburb" required="" minlength="3" data-msg="To accuratly estimate a quote, please provide your suburb." type="text" name="address" id="address1" placeholder="Enter your Suburb" aria-required="true">
+	                                </div>
+                                    <input type="hidden" name="service_required_flag" value="Carpet Cleaning">
+                                    <div class="form-group">
+                                        <label class="form-label" for="message1">Additional Details <span class="muted">(Optional)</span></label>
+                                        <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                </div>
+                            </form>
+                            <p class="form-privacy">*Your details are kept confidential</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-7 center-content-inCol">
+                    <h3>Energy Healing is pain free, contact free and non-aggressive</h3>
+                    <!-- <p class="intro">Energy Healing is pain free, contact free and non-aggressive</p> -->
+                    <div class="value-prop">
+                        <img src="img/icons/energy-healing.svg" class="img-responsive">
+                        <div class="prop-content">
+                            <h6>Healing Comes From Within</h6>
+                            <p>In an Energy Healing session, you are not a passive receiver. You will learn how to sense and direct energy for yourself. This allows you to be fully receptive to energy and get the most out of your sessions.</p>
+                        </div>
+                    </div>
+                    <div class="value-prop">
+                        <img src="img/icons/lotus.svg" class="img-responsive">
+                        <div class="prop-content">
+                            <h6>Mindset Matters</h6>
+                            <p>It is well known that a positive mindset can accelerate healing and recovery. It applies to Energy Healing as well. Our techniques can help you clear the energy blocks in your physical and emotional bodies to cultivate self-love.</p>
+                        </div>
+                    </div>
+                    <div class="value-prop">
+                        <img src="img/icons/hand-healing.svg" class="img-responsive">
+                        <div class="prop-content">
+                            <h6>Empower Yourself with Consistency</h6>
+                            <p>Consistent training not only maximizes the results of your self-healing, but it also can be the stepping stone to a better quality of life. After each session, you will receive a series of home-practice exercises, so that you can continue your self-healing journey at home.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="up-level">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row row-eq-height">
+                    <div class="col-md-3 col-sm-6 center-content-inCol">
+                        <img src="img/logo.png" class="img-responsive">
+                    </div>
+                    <div class="col-md-9 col-sm-6 center-content-inCol">
+                        <h1>
+                            <a href="tel:0435039378"><i class="icon-phone-2"></i> 0435 039 378</a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright" class="up-level">
+        <div class="copyright-wrapper">
+            <div class="container">
+                <div class="row">
+                    <p>&copy;<?php echo date('Y'); ?> All Rights Reserved - Energy Healing Institute</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="anxiety_treatment" tabindex="0" role="anxiety_treatment" aria-labelledby="anxiety_treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Anxiety Treatment</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/ANXIETY.jpg" class="img-responsive">
+                            </div>
+                            <h4>How Does It Work?</h4>
+                            <p>Before we start the treatment for any kind of anxiety, it is imperative that we fully understand the root cause of the problem.  Anxiety is caused by blockage of the heart meridian that is likely to occur due to a number of reasons such as poor lifestyle, trauma, stress, or even genetically inherited.  This condition is resulting in very low self esteem, lack of motivation, antisocial, inferiority complex – just to name a few potential symptoms of anxiety. The first step in our treatment program is to establish the depth or extent of the blockage within the heart.  We then stimulate the heart meridian to allow the energy to flow through the organ and body. Once the flow of energy is enabled, the heart starts to restore it’s function and get stronger day by day, and you will be able to live a happy and fulfilling life you always deserved.</p>
+                            <h5>Solutions For Anxiety</h5>
+                            <p>EH Institute has developed a solution for you – Learn more about 10 Day Anxiety Therapy Program & discover natural solution for anxiety.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_12">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Product <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Anxiety Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name12">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name12" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email12">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email12" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone12">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone12" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message1">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="eye_diseases_treatment" tabindex="0" role="eye_diseases_treatment" aria-labelledby="eye_diseases_treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Eye Disease Treatment</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/eye-diseases.jpg" class="img-responsive">
+                            </div>
+                            <h4>How Does It Work?</h4>
+                            <p>Our powerful, proven treatment program is designed from the ground up to deliver help and healing for anyone struggling with eye-related health challenges. Struggling with migraines? Suffering from blurry vision or floaters? Dry eye and eye socket spasms wreaking havoc on your life? There is a solution. Our treatments and therapies are all-natural, and focus on unlocking your body’s own energy to rejuvenate and regenerate. Sick of conventional medicine failing you? Not satisfied with the limited results available through Western treatments? Our treatment program can help.Our ground-breaking energy healing program is based on proven techniques combined with holistic healing, expert nutritional guidance, and deep relaxation therapy. It is designed to help combat eye diseases and heal debilitating conditions</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_2">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Eye Diseases Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name2">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name2" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email2">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email2" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone2">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone2" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message2">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message2" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="asthma_treatment" tabindex="0" role="asthma_treatment" aria-labelledby="asthma_treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Corneal Ulcer Treatment</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/asthma.jpg" class="img-responsive">
+                            </div>
+                            <h4>Natural Asthma Treatment</h4>
+                            <p>People with asthmatic problems are more likely to report a poor quality of life, especially those with severe or poorly controlled asthma. 34% of people report that asthma interferes with their daily living, and 21.8% of people aged 15-25 required time off work, school or study due to their asthma. There were 441 deaths due to asthma in 2017. Asthma mortality rates are higher for people living in remote or lower socioeconomic areas, and for Indigenous Australians.</p>
+                            <h5>Asthma Experts</h5>
+                            <p>We are the experts in treating Asthma problems.  Energy Healing Institute have been researching natural treatment for asthma for over 20 years and through this experience and using the latest technology can offer a totally natural asthma therapy program. Our qualified asthma expert will help you to discover how to get rid of asthma – forever.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_3">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Asthma Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name3">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name3" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email3">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email3" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone3">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone3" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message3">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="blood-pressure-treatment" tabindex="0" role="blood-pressure-treatment" aria-labelledby="blood-pressure-treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Blood Pressure Treatment</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/blood-pressure.jpg" class="img-responsive">
+                            </div>
+                            <h4>Blood Pressure Treatment</h4>
+                            <p>Blood Pressure issues are one of the easiest problems to resolve.  Weather it’s hypertension or hypotension, these are caused by the blockage of the heart meridian.  Heart is the main engine in our bodies that controls the absorption and flow of energy. The first step in our treatment program is to establish the depth or extent of the blockage within the heart.  We then stimulate the heart meridian to allow the energy to flow through the organ and body. Once the flow of energy is enabled, the heart starts to restore it’s function and get stronger day by day.  This will initially cause oscillation of your blood pressure, but will eventually stabilise and balance out.</p>
+                            <h5>Blood Pressure Problem</h5>
+                            <p>When blood pressure stays persistently high, low, or erratic, problems can arise. The most common blood pressure disorders are high blood pressure (hypertension) and low blood pressure (hypotension). Both have many causes and can range in severity from mild to dangerous.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_4">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Blood Pressure Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name4">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name4" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email4">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email4" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone4">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone4" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message4">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cholestrol-treatment" tabindex="0" role="cholestrol-treatment" aria-labelledby="cholestrol-treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Cholestrol Treatment</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/cholestorol.jpg" class="img-responsive">
+                            </div>
+                            <h4>Cholestrol Treatment</h4>
+                            <p>Cholesterol issues are predominantly caused by unhealthy diet and lifestyle choices, poor circulation, liver and gallbladder dysfunction.  There may be some inherent hereditary factors that may increase the risk of high cholesterol. The first step in our treatment program is to establish the depth or extent of the blockage within the liver.  We then stimulate the liver to allow the energy to flow through the organ and body. Once the flow of energy is enabled, the liver starts to restore it’s function and get stronger day by day.  </p>
+                            <h5>Cholestrol Diest & Therapy</h5>
+                            <p>Cholesterol issues can be effectively controlled through a healthy diet and lifestyle change.  EHI specialises in natural rejuvenation techniques and our qualified Nutritionist will guide you on the right path.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_5">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Cholestrol Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name5">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name5" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email5">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email5" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone5">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone5" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message5">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="chronic-fatique-treatment" tabindex="0" role="chronic-fatique-treatment" aria-labelledby="chronic-fatique-treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Chronic Fatique Syndrome</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/chronic-fatigue.jpg" class="img-responsive">
+                            </div>
+                            <h4>How Does It work?</h4>
+                            <p>As our treatments reach far into the depth of genetic structure, the results are permanent.  We take a holistic approach to providing effective solutions, which include advice on nutrition and exercise. All of our treatments are vegan friendly and 100% cruelty free – approved by nature. Chronic Fatigue Syndrome problems relate to kidney issues.  When the kidney energy is weak, you start to feel lethargic, no energy, lack of motivation, poor concentration and fatigued.  The first step in our treatment program is to establish the depth or extent of the blockage within the kidney. We then stimulate the kidney meridian to allow the energy to flow through the organ and body.  Once the flow of energy is enabled, the kidney starts to restore it’s function and get stronger day by day. Your energy will start to come back, you’ll feel less and less tired and lethargic, you concentration will improve and your outlook on life becomes more positive, as you start loving life again.</p>
+                            <h5>Chronic Fatigue Syndrome</h5>
+                            <p>Chronic Fatigue Syndrome (CFS) is a modern day disease of the nervous system, which affects people of all ages and across all walks of life. It is an indicator of deficient energy and an imbalance, which causes extreme exhaustion and results in an inability to work or carry out every day jobs, do sports or enjoy a normal family life. </p>
+                            <p>person to person, and include headaches, loss of concentration, memory loss, insomnia, low blood pressure, pale skin and many more</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_6">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Chronic Fatique Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name6">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name6" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email6">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email6" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone6">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone6" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message6">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="depression-treatment" tabindex="0" role="depression-treatment" aria-labelledby="depression-treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Depression Treatment</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/depression.jpg" class="img-responsive">
+                            </div>
+                            <h4>How Does It work?</h4>
+                            <p>Before we start the treatment for any kind of depression, it is imperative that we fully understand the root cause of the problem.  Depression is caused by blockage of the heart meridian that is likely to occur due to a number of reasons such as poor lifestyle, trauma, stress, or even genetically inherited.  This condition is resulting in very low self esteem, lack of motivation, antisocial, inferiority complex – just to name a few potential symptoms of depression. The first step in our treatment program is to establish the depth or extent of the blockage within the heart.  We then stimulate the heart meridian to allow the energy to flow through the organ and body. Once the flow of energy is enabled, the heart starts to restore it’s function and get stronger day by day, and you will be able to live a happy and fulfilling life you always deserved.</p>
+                            <h5>Facts</h5>
+                            <p>300 million people around the world have depression, according to the World Health Organisation. In 2014-15 there were 4.0 million Australians (17.5%) who reported having a mental or behavioural condition. Anxiety-related conditions were most frequently reported (2.6 million people or 11.2% of the population) followed by mood (affective) disorders, which includes depression (2.1 million people or 9.3%). Around one in twenty Australians (5.1%) reported having both an anxiety-related condition and a mood (affective) disorder. Nearly 50 percent of all people diagnosed with depression are also diagnosed with an anxiety disorder. It’s estimated that 15 percent of the adult population will experience depression at some point in their lifetime. Mental and behavioural conditions were more common amongst women than men (19.2% compared with 15.8% respectively).</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_7">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Depression Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name7">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name7" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email7">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email7" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone7">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone7" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message7">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gut-problems-treatment" tabindex="0" role="gut-problems-treatment" aria-labelledby="gut-problems-treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Gut Probles Treatment</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/gut-problems.jpg" class="img-responsive">
+                            </div>
+                            <h4>How Does It work?</h4>
+                            <p>Gut issues can be caused by a number of factors, such as dysfunction of the liver and spleen, or blockages to the heart meridian or small intestine.  The issues associated with the stool or bowel movements are directly linked to the function of the lungs. 70-80% of the health issues stem from the gut, and our treatments are focused around improving the good gut bacteria and the strengthening of the immune system.   In combination with a healthy diet and an active lifestyle, you will have a healthy digestive tract that properly absorbs the nutrients needed to maintain a healthy body.</p>
+                            <h5>Facts</h5>
+                            <p>Bowel cancer is the second most common cause of death from cancer. In most cases it is potentially preventable. Lactose intolerance is also an issue. Inflammatory bowel syndrome IBS, ulcerative colitis and Crohn’s disease contribute to poor health of teenagers and young adults. IBS interferes with quality of life and creates problems for pregnancy and good nutrition later. Dyspepsia and heartburn are also common problems as well as a factor in time lost from work. Some people will use surgery and medication to correct their problems. If you prefer a modern, non invasive totally natural solutions, then Natural Health Institute’s natural gut treatment could just be the right one for you.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_8">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Gut Problems Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name8">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name8" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email8">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email8" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone8">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone8" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message8">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="insomnia-treatment" tabindex="0" role="insomnia-treatment" aria-labelledby="insomnia-treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Insomnia Treatment</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/insomnia.jpg" class="img-responsive">
+                            </div>
+                            <h4>How Does It work?</h4>
+                            <p>Insomnia and sleeping issues is caused by the dysfunction of the liver.  These issues are caused by a number of factors such as alcohol, drugs, diet, as well as emotional elements influenced by stress and depression.  The first step in our treatment program is to establish the depth or extent of the blockage within the liver. We then stimulate the liver to allow the energy to flow through the organ and body.  Once the flow of energy is enabled, the liver starts to restore it’s function and get stronger day by day. It’s important to note that we take a holistic approach in treating this condition and involve education around the lifestyle changes including diet and exercise to optimise the effectiveness of the program.
+                            </p>
+                            <h5>Facts</h5>
+                            <p>Lack of sleep, inability to fall asleep, interrupted sleep or insomnia needs to be identified and corrected. Many people worry about going to sleep. Long-term chronic insomnia needs professional support, understanding and patience. It is possible to fall asleep naturally without the use of drugs: learn how with Natural Health Institute and discover natural insomnia treatments. Learn to relax for better sleep, let go of worry and overthinking</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_9">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Insmonia Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name9">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name9" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email9">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email9" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone9">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone9" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message9">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="stress-treatment" tabindex="0" role="stress-treatment" aria-labelledby="stress-treatment">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Stress Treatment</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/stress.jpg" class="img-responsive">
+                            </div>
+                            <h4>How Does It work?</h4>
+                            <p>When we are exposed to a stressful event or situation, our body starts to release Cortisol, which is a stress hormone that helps our body deal with stressful situations.  When we are stressed, our Cortisol levels are high and our muscles start to tense up, blocking the flow of energy through our body. As part of our treatment program, we stimulate your body to identify and successfully release the blockages, which in turn opens up the channels to support the flow of energy that promotes successful healing process. 
+                            </p>
+                            <h5>Work Related Stress</h5>
+                            <p>Stress is not an illness – it is a state. However, if stress becomes too excessive and prolonged, mental and physical illness may develop. There are many reasons why your work might be making you feel stressed, such as long hours, a heavy workload and conflict in the workplace. Your work environment can create work-related stress. If your workplace does not understand and is not supportive of employees with health conditions, such as anxiety, depression or anxiety-related disorders, they might feel discriminated against.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_10">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Stress Treatment">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name10">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name10" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email10">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email10" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone10">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone10" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message10">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="energy-healing" tabindex="0" role="energy-healing" aria-labelledby="energy-healing">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5>Energy Healing Vs Yoga, Reiki or Qigong/Chi Gung</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-center prev-image-holder">
+                                <img src="img/services/energy-healing.jpg" class="img-responsive">
+                            </div>
+                            <h4>Energy Healing</h4>
+                            <p>In order to compare Energy Healing against other healing methods available out there, it’s important to assess the differences through consideration of the main advantages and benefits
+                            </p>
+                            <h4>Energy Healing advantage</h4>
+                            <p>Energy healing has a number of advantages over other healing methods available.  The most prominent difference is the depth at which the <b> prenatal super creative energy</b> flows through your body and organs via pathways called meridians.  The process of energy healing stimulates the meridians and removes the blockages that promote a free flow of energy that restores function of affected organs.</p>
+
+                            <h4>Energy Healing Benefits</h4>
+                            <p>Most of the healing systems available out there require body movements or use of hand/touch to transmit energy or healing powers, while our treatments are contact and movement free, simple and natural, with results that are fast and permanent.  Because the treatments are non-aggressive and require no physical action or maneuvering, it is suitable for people of all ages, including children and elderly.</p>
+
+                            <h4>Prenatal Super Creative Energy</h4>
+                            <p>It means reaching far into the depth of genetic structure, the results are permanent.  We take a holistic approach to providing effective solutions, which include advice on nutrition and exercise.  All of our treatments are vegan friendly and 100% cruelty free – approved by nature.
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="contact_block">
+                                <div class="request-quote-form">
+                                    <h5>Request a FREE Quote</h5>
+                                    <div class="form-container">
+                                        <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_11">
+                                            <div class="field-wrp">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="product">Service <span>*</span></label>
+                                                    <input class="form-control" data-label="product" readonly type="text" name="product" id="product" aria-required="true" value="Energy Healing">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="name11">Your Name <span>*</span></label>
+                                                    <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name11" placeholder="Enter your name" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email11">Your Email <span>*</span></label>
+                                                    <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email11" placeholder="Enter your email" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone11">Your Phone Number <span>*</span></label>
+                                                    <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone11" placeholder="Enter your phone number" aria-required="true">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message11">Additional Details <span class="muted">(Optional)</span></label>
+                                                    <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-sm btn-submit">Get My Free Quote</button>
+                                            </div>
+                                        </form>
+                                        <p class="form-privacy">*Your details are kept confidential</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="popup-phone">
+                                <p>Or <b>Get In Touch Directly With Us On</b></p>
+                                <h2><a href="tel:0435039378"><i class="icon-phone-2" aria-hidden="true"></i>0435 039 378</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#headerBar" id="back-to-top" class="to-top"> To Top <i class="fa fa-arrow-up"></i></a>
+    
+    <script src="js/jquery.fancybox.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function(){
+            
+            $('body').sidePanelForm({
+                'form_id': '#contact_form_1'
+            });
+            
+            
+            $('#contact_form').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_1').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_2').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_3').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_4').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_5').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_6').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_7').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_8').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_9').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_10').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+
+            $('#contact_form_11').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+            $('#contact_form_12').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+            // function update() {
+            //   $('span.clock-display').html(moment().format('h:mm:ss A'));
+            // }
+
+            // setInterval(update, 1000);
+            
+            $('.mobile-nav-ul>li>a').on('click', function(){
+                $('.navbar-collapse').collapse('hide');
+            });
+            
+            function goToByScroll(id){
+                  // Remove "link" from the ID
+                id = id.replace("link", "");
+                  // Scroll
+                $('html,body').animate({
+                    scrollTop: $(id).offset().top},
+                    'slow');
+            }
+            
+            $('a:not(.request_consultation)').click(function(e) {
+                var link = $(this).attr('href');
+
+                if (link.indexOf('#') > -1) {
+                    // Prevent a page reload when a link is pressed
+                    e.preventDefault(); 
+                      // Call the scroll function
+                    goToByScroll(link);   
+                }
+            });
+            
+            if ($('#back-to-top').length) {
+                var scrollTrigger = 100, // px
+                    backToTop = function () {
+                        var scrollTop = $(window).scrollTop();
+                        if (scrollTop > scrollTrigger) {
+                            $('#back-to-top').addClass('show');
+                        } else {
+                            $('#back-to-top').removeClass('show');
+                        }
+                    };
+                backToTop();
+                $(window).on('scroll', function () {
+                    backToTop();
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
